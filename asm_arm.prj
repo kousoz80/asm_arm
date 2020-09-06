@@ -438,6 +438,9 @@ String[] ins_data = {
 &quot;\\1704=\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704=\\1704|\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704=\\1704^\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&lt;&lt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&gt;&gt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;30&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704*\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;90&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704-\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
@@ -446,6 +449,8 @@ String[] ins_data = {
 &quot;\\1704=\\0708&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704=\\0708|\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704=\\0708^\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&lt;&lt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;5&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&gt;&gt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;20&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;5&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704-\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;\\1704&amp;\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
