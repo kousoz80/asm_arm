@@ -495,6 +495,7 @@ String[] ins_data = {
 &quot;jle \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;da&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;call \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;eb&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;ret&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0e&quot;,&quot;f0&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;clz \\1704,\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;0f&quot;,&quot;6f&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;svc \\0724&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ef&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;nop&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;-1&quot;,&quot;END&quot;,
 };
