@@ -428,76 +428,78 @@ String[] ins_data = {
 &quot;+= \\0632&quot;,&quot;5&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;memory \\0232&quot;,&quot;3&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;align \\0632&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;byte \\0632&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;short \\0632&quot;,&quot;0&quot;,&quot;2&quot;,&quot;0&quot;,&quot;0&quot;,&quot;16&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;int \\0632&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;32&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;long \\0632&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;32&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;byte \\0632&quot;,&quot;0&quot;,&quot;1&quot;,&quot;0&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;short \\0632&quot;,&quot;0&quot;,&quot;2&quot;,&quot;0&quot;,&quot;0&quot;,&quot;16&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;int \\0632&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;32&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;long \\0632&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;32&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;\\1704=\\1704+\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704-\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;40&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704|\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704^\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&lt;&lt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&gt;&gt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;30&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704*\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;90&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;4&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704-\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704+\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704-\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;40&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704|\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704^\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&lt;&lt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&gt;&gt;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;30&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704*\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;90&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;8&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704-\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704&amp;\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;\\1704=\\1704+\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704-\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;40&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&amp;\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704|\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704^\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&lt;&lt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;5&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\1704&gt;&gt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;20&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;5&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704-\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704&amp;\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704+\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704-\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;40&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&amp;\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704|\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704^\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;20&quot;,&quot;e2&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&lt;&lt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;5&quot;,&quot;0&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&gt;&gt;\\0705&quot;,&quot;0&quot;,&quot;4&quot;,&quot;20&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;5&quot;,&quot;0&quot;,&quot;7&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704-\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;50&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704&amp;\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;10&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;\\1704=(\\1704+\\1704)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\0708)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\1704)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\0708)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\1704)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\0708)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\1704)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704+\\0708)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=(\\1704)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\1704)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\0708)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704)#&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\1704)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\0708)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704)!&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\1704)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;90&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\0708)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704)%&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\1704)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704+\\0708)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=(\\1704)$&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;d0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;(\\1704+\\1704)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\0708)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\1704)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\0708)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\1704)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\0708)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\1704)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704+\\0708)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;(\\1704)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;16&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\1704)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\0708)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704)#=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\1704)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\0708)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704)!=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\1704)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;80&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\0708)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704)%=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\1704)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e7&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704+\\0708)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;(\\1704)$=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;c0&quot;,&quot;e5&quot;,&quot;4&quot;,&quot;0&quot;,&quot;16&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;\\1704=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;12&quot;,&quot;8&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;\\1704=&amp;\\0632&quot;,&quot;0&quot;,&quot;12&quot;,&quot;00&quot;,&quot;00&quot;,&quot;9f&quot;,&quot;e5&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ea&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;4&quot;,&quot;12&quot;,&quot;32&quot;,&quot;64&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=&amp;\\0632&quot;,&quot;0&quot;,&quot;12&quot;,&quot;00&quot;,&quot;00&quot;,&quot;9f&quot;,&quot;e5&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ea&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;32&quot;,&quot;0&quot;,&quot;64&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;\\1704=\\0708&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e3&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;8&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 
-&quot;jmp \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ea&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jeq \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;0a&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jne \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;1a&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jpl \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;5a&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jmi \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;4a&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jge \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;aa&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jgt \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ca&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jlt \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ba&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;jle \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;da&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;call \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;eb&quot;,&quot;2&quot;,&quot;120&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jmp \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ea&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jeq \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;0a&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jne \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;1a&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jpl \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;5a&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jmi \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;4a&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jge \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;aa&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jgt \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ca&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jlt \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ba&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;jle \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;da&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;call \\0426&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;eb&quot;,&quot;24&quot;,&quot;2&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;ret&quot;,&quot;0&quot;,&quot;4&quot;,&quot;0e&quot;,&quot;f0&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;clz \\1704,\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;0f&quot;,&quot;6f&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
-&quot;svc \\0724&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ef&quot;,&quot;24&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+
+&quot;clz \\1704,\\1704&quot;,&quot;0&quot;,&quot;4&quot;,&quot;10&quot;,&quot;0f&quot;,&quot;6f&quot;,&quot;e1&quot;,&quot;4&quot;,&quot;0&quot;,&quot;12&quot;,&quot;4&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
+&quot;svc \\0724&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;00&quot;,&quot;ef&quot;,&quot;24&quot;,&quot;0&quot;,&quot;0&quot;,&quot;-1&quot;,&quot;END&quot;,
 &quot;nop&quot;,&quot;0&quot;,&quot;4&quot;,&quot;00&quot;,&quot;00&quot;,&quot;a0&quot;,&quot;e1&quot;,&quot;-1&quot;,&quot;END&quot;,
+
 };
 </codetext>
 </codeclip>
@@ -549,7 +551,7 @@ public int read_int(){
  static final int MEMORY = 3;
  static final int ALIGN    = 4;
  static final int EQUPP   = 5;
- static final int MAX_WORD = 10; // 最大語長
+ static final int MAX_WORD = 11; // 最大語長
 
   int[] ins = new int[16];  // 配列の１要素は1バイトに対応
   int  line = 0, ins_type = 0;
@@ -716,7 +718,7 @@ public int asm_1line( String xbuf, int pass ){
   int operand[] = new int[8];
   int term_val;
   int state = 0;
-  int  ref_pos, st_pos, operand_p, bit_width, bit_pos, i;
+  int  ref_pos, st_pos, operand_p, bit_width, bit_start, bit_pos, i;
   char op, op2=&apos;\0&apos;;
 
   if(  buf.length()&lt;=0 ) return 0; // 空の場合は戻る
@@ -920,9 +922,9 @@ public int asm_1line( String xbuf, int pass ){
           amin = -(1&lt;&lt;(arg_wid-1));
           amax = (1&lt;&lt;(arg_wid-1))-1;
         }
-        if( value &lt; amin || value &gt; amax ){
+        if( (value &lt; amin || value &gt; amax) &amp;&amp; pass == 2 ){
 
-//System.out.println(&quot;value is out of range\n&quot;);
+System.out.println(&quot;value is out of range\n&quot;);
 
           state = FAULT;
           break;
@@ -957,11 +959,12 @@ public int asm_1line( String xbuf, int pass ){
 
       /* 命令コードの生成 */
       for( i = 0; ( bit_width = read_int() ) &gt;= 0; i++ ){
+        bit_start = read_int();
         bit_pos = read_int();
 
 //System.out.println(&quot;bit copy&quot;);
 
-        bit_copy( operand[i], ins, bit_pos, bit_width );
+        bit_copy( operand[i] &gt;&gt;bit_start, ins, bit_pos, bit_width );
 
 //System.out.println(&quot;bit copy end&quot;);
 
@@ -1019,7 +1022,7 @@ public int asm_1line( String xbuf, int pass ){
 
   /* エラー終了 */
   
-//System.out.println(&quot;not match&quot;);
+System.out.println(&quot;op code not match&quot;);
 
   word_length = 0;
   ins_type = NONE;
@@ -1094,6 +1097,15 @@ int len;
 
 //System.out.println(&quot;asm err code=&quot;+err);
 
+       if( blist){
+         print_hex( location-word_length, 8, &quot;:&quot; );
+         for( int i = 0; i &lt; word_length; i++ ){
+           print_hex( (int)ins[i], 2, &quot; &quot; );
+         }
+         for( int i =MAX_WORD; i &gt;= word_length; i-- ) System.out.print(&quot;   &quot;);
+         System.out.println(buf);
+       }
+
        switch(ins_type){
        case NONE:
          if( err != 0 ) System.err.println(&quot;line:&quot;+line+&quot; *** ERROR ***\n&quot;+buf);
@@ -1110,14 +1122,6 @@ int len;
              out.write((byte)&apos; &apos;);
              out.write(ins[i]&amp;0xff);
            }
-         }
-         if( blist){
-           print_hex( location-word_length, 8, &quot;:&quot; );
-           for( int i = 0; i &lt; word_length; i++ ){
-             print_hex( (int)ins[i], 2, &quot; &quot; );
-           }
-           for( int i =MAX_WORD; i &gt;= word_length; i-- ) System.out.print(&quot;   &quot;);
-           System.out.println(buf);
          }
          break;
 
@@ -1216,7 +1220,7 @@ int len;
    for( int i = 0;i &lt; symbols.size(); i++ ){
      s = (xSymbol)(symbols.get(i));
      if( s.type.equals(&quot;LABEL&quot;)){
-       System.out.print( s.name + &quot;  0x&quot;); print_hex( s.value, 16, &quot;\n&quot; );
+       System.out.print( s.name + &quot;  0x&quot;); print_hex( s.value, 8, &quot;\n&quot; );
      }
    }
  }
@@ -1229,7 +1233,7 @@ int len;
    for( int i = 0;i &lt; symbols.size(); i++ ){
      s = (xSymbol)(symbols.get(i));
      if( s.type.equals(&quot;LABEL&quot;)){
-       System.out.print( &quot; const &quot; + s.name + &quot;  0x&quot;); print_hex( s.value, 16, &quot;\n&quot; );
+       System.out.print( &quot; const &quot; + s.name + &quot;  0x&quot;); print_hex( s.value, 8, &quot;\n&quot; );
      }
    }
    System.out.println( &quot;/ org program/&quot;);
